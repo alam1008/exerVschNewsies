@@ -1,0 +1,59 @@
+img {
+  width: 900px;
+  height: 1000px;
+  display: block;
+  float: right;
+  margin-left: 2%;
+  margin: 1%;
+}
+.header {
+  color: black;
+  font-family: Georgia;
+  text-align: center;
+  width: 1400px;
+  font-size: 25pt;
+  text-transform: uppercase;
+  text-decoration: underline overline;
+}
+span.title {
+  font-family: Impact;
+  font-size: 140pt;
+  text-transform: uppercase;
+  float: left;
+  line-height: 85px;
+  text-align: justify;
+}
+p {
+  float: left;
+}
+span.intro {
+  line-height: 25px;
+  font-size: 14pt;
+  text-align: justify;
+  font-family: Times New Roman;
+
+}
+body {
+  background-color: beige;
+
+} 
+.extra {
+  font-family: Georgia;
+  text-align: center;
+  width: 1400px;
+  font-size: 25pt;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.column {
+  float: left;
+  width: 23%;
+  margin: 7pt;
+  text-align: justify;
+  font-family: Times New Roman;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
